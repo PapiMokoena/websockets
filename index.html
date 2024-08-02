@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Status Updates</title>
+</head>
+<body>
+  <h1>Status Updates</h1>
+  <form id="status-form">
+    <input type="text" id="username" placeholder="Your name" required>
+    <input type="text" id="status" placeholder="Your status" required>
+    <button type="submit">Post Status</button>
+  </form>
+  <div id="feed"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+</body>
+</html>
